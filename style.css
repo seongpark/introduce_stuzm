@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Pretendard-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Medium.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard-ExtraBold';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-ExtraBold.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+body {
+    font-family: 'Pretendard-Medium' !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Pretendard-ExtraBold' !important;
+}
+
+.div1 {
+    height: 100vh;
+    background: linear-gradient(to bottom, #1CB1B7, #fff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.div2 {
+    height: 30vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div_w {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div_footer {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+a {
+    color: rgb(0, 0, 0, 60%) !important;
+    text-decoration: none !important;
+}
+
+.btn-dark {
+    background-color: rgb(0, 0, 0, 60%) !important;
+    border: 0px !important;
+    font-size: 18px !important;
+    padding: 12px !important;
+}
+
+.btn {
+    border-radius: 5px !important;
+}
+
+.shadow_title {
+    text-shadow: 0px 0px 17px rgb(0, 0, 0, 30%);
+}
+
+.container {
+    width: 50% !important;
+}
+
+.intro {
+    line-height: 500px;
+}
+
+.intro>div {
+    line-height: normal;
+    display: inline-block;
+    vertical-align: middle;
+}
